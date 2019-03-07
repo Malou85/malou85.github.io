@@ -1,0 +1,37 @@
+//-----------//
+// Variables //
+//-----------//
+// Variables that will be used in other scss
+
+//
+// Color system
+//
+$color-primary: #EC5569;
+
+//
+// Fonts
+//
+
+//
+// Font sizes
+//
+
+
+//
+// Sizes
+//
+
+
+//
+// Slick slider
+//
+$slick-arrow-color: white !default;
+$slick-dot-color: black !default;
+$slick-dot-color-active: $slick-dot-color !default;
+$slick-prev-character: "\2190" !default;
+$slick-next-character: "\2192" !default;
+$slick-dot-character: "\2022" !default;
+$slick-dot-size: 6px !default;
+$slick-opacity-default: 0.75 !default;
+$slick-opacity-on-hover: 1 !default;
+$slick-opacity-not-active: 0.25 !default;

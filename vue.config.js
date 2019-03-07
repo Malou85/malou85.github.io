@@ -1,5 +1,3 @@
-const path = require('path')
-
 module.exports = {
   chainWebpack: config => {
     config.module
@@ -22,9 +20,18 @@ module.exports = {
       })
   },
   configureWebpack: {
-    resolve: {
-      alias: {
-        'bootstrap-components': path.resolve(__dirname, 'node_modules/bootstrap-vue/es/components')
+    devtool: 'inline-source-map',
+  },
+  css: {
+    loaderOptions: {
+      css: {
+        sourceMap: true
+      },
+      postcss: {
+        sourceMap: true
+      },
+      sass: {
+        sourceMap: true
       }
     }
   }

@@ -1,2 +1,63 @@
-@import '../../../node_modules/bootstrap/scss/bootstrap';
-@import '../../../node_modules/bootstrap-vue/src/index.scss';
+//****************//
+//****************//
+//  CSS IMPORTS   //
+//****************//
+//****************//
+
+
+//  BOOTSTRAP
+//****************//
+@import "~bootstrap/scss/functions"; // Warning - node module
+@import "~bootstrap/scss/mixins"; // Warning - node module
+@import "bootstrap/variables";
+@import "bootstrap/root";
+@import "bootstrap/reboot";
+@import "bootstrap/type";
+@import "bootstrap/images";
+@import "bootstrap/code";
+@import "bootstrap/grid";
+//@import "bootstrap/tables";
+//@import "bootstrap/forms";
+@import "bootstrap/buttons";
+@import "bootstrap/transitions";
+//@import "bootstrap/dropdown";
+//@import "bootstrap/button-group";
+//@import "bootstrap/input-group";
+//@import "bootstrap/custom-forms";
+//@import "bootstrap/nav";
+//@import "bootstrap/navbar";
+//@import "bootstrap/card";
+//@import "bootstrap/breadcrumb";
+//@import "bootstrap/pagination";
+//@import "bootstrap/badge";
+//@import "bootstrap/jumbotron";
+@import "bootstrap/alert";
+//@import "bootstrap/progress";
+//@import "bootstrap/media";
+//@import "bootstrap/list-group";
+@import "bootstrap/close";
+//@import "bootstrap/toasts";
+@import "bootstrap/modal";
+//@import "bootstrap/tooltip";
+@import "bootstrap/popover";
+//@import "bootstrap/carousel";
+//@import "bootstrap/spinners";
+@import "bootstrap/utilities";
+//@import "bootstrap/print";
+
+
+//  BOOTSTRAP VUE
+//****************//
+@import '~bootstrap-vue/src/index.scss';
+
+
+//  CUSTOM
+//****************//
+@import "custom/c-fonts.scss";
+@import "custom/c-variables.scss";
+@import "custom/helpers/c-placeholders";
+@import "custom/helpers/c-mixins";
+@import "custom/c-base.scss";
+@import "custom/c-layout.scss";
+@import "custom/c-module.scss";
+@import "custom/c-state.scss";

@@ -6,8 +6,10 @@ import './registerServiceWorker'
 
 // add bootstrap vue + bootstrap 4
 import '@/assets/css/custom.scss'
-import { Layout } from 'bootstrap-components'
+import { Layout, Modal, Button } from '../node_modules/bootstrap-vue/es/components'
 Vue.use(Layout)
+Vue.use(Button)
+Vue.use(Modal)
 
 Vue.config.productionTip = false
 

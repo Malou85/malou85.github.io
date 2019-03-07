@@ -1,0 +1,22 @@
+//-----------//
+//   Base   //
+//-----------//
+// Base = all defaults properties
+// most of the time it concerns direct element selectors (no class or id)
+// Ex : html, body, input, a...
+
+html{}
+
+body{
+  background:white;
+  color: black;
+}
+
+h1{
+  color:$color-primary;
+  appearance: none;
+}
+
+h1{
+  text-decoration: underline;
+}

@@ -1,0 +1,36 @@
+//--------------//
+// Placeholders //
+//--------------//
+// Placeholders allow to declare a list of CSS properties and use them in selectors thanks to an "extend"
+// Placeholders haven't parameters as mixins
+
+//
+// Object fit
+//
+//emulate a background image with background-size "cover" style
+%object-fit{
+  object-fit: cover;
+  font-family: "object-fit: cover;";
+  height: 100%;
+  width: 100%;
+}
+
+
+//
+// Icomoon
+//
+//CSS properties to display a clean icomoon font
+%icomoon{
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

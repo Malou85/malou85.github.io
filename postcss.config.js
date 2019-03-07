@@ -1,5 +1,6 @@
-module.exports = {
+module.exports = ({ options, env }) => ({
   plugins: {
-    autoprefixer: {}
+    autoprefixer: {},
+    cssnano: {}
   }
-}
+})
